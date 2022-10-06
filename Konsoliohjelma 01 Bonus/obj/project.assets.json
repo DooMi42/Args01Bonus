@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Microsoft.Extensions.Configuration/6.0.0": {
+      "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
@@ -90,10 +90,10 @@
     }
   },
   "libraries": {
-    "Microsoft.Extensions.Configuration/6.0.0": {
-      "sha512": "tq2wXyh3fL17EMF2bXgRhU7JrbO3on93MRKYxzz4JzzvuGSA1l0W3GI9/tl8EO89TH+KWEymP7bcFway6z9fXg==",
+    "Microsoft.Extensions.Configuration/6.0.1": {
+      "sha512": "BUyFU9t+HzlSE7ri4B+AQN2BgTgHv/uM82s5ZkgU1BApyzWzIl48nDsG5wR1t0pniNuuyTBzG3qCW8152/NtSw==",
       "type": "package",
-      "path": "microsoft.extensions.configuration/6.0.0",
+      "path": "microsoft.extensions.configuration/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -104,7 +104,7 @@
         "lib/net461/Microsoft.Extensions.Configuration.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
-        "microsoft.extensions.configuration.6.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.6.0.1.nupkg.sha512",
         "microsoft.extensions.configuration.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -200,23 +200,24 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Microsoft.Extensions.Configuration >= 6.0.1",
       "Microsoft.Extensions.Configuration.CommandLine >= 6.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\s2000950\\.nuget\\packages\\": {}
+    "C:\\Users\\hurme\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\s2000950\\source\\repos\\Konsoliohjelma 01 Bonus\\Konsoliohjelma 01 Bonus\\Konsoliohjelma 01 Bonus.csproj",
+      "projectUniqueName": "C:\\Users\\hurme\\Desktop\\Args01\\Args01Bonus\\Konsoliohjelma 01 Bonus\\Konsoliohjelma 01 Bonus.csproj",
       "projectName": "Konsoliohjelma 01 Bonus",
-      "projectPath": "C:\\Users\\s2000950\\source\\repos\\Konsoliohjelma 01 Bonus\\Konsoliohjelma 01 Bonus\\Konsoliohjelma 01 Bonus.csproj",
-      "packagesPath": "C:\\Users\\s2000950\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\s2000950\\source\\repos\\Konsoliohjelma 01 Bonus\\Konsoliohjelma 01 Bonus\\obj\\",
+      "projectPath": "C:\\Users\\hurme\\Desktop\\Args01\\Args01Bonus\\Konsoliohjelma 01 Bonus\\Konsoliohjelma 01 Bonus.csproj",
+      "packagesPath": "C:\\Users\\hurme\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hurme\\Desktop\\Args01\\Args01Bonus\\Konsoliohjelma 01 Bonus\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\s2000950\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hurme\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -242,6 +243,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.Extensions.Configuration": {
+            "target": "Package",
+            "version": "[6.0.1, )"
+          },
           "Microsoft.Extensions.Configuration.CommandLine": {
             "target": "Package",
             "version": "[6.0.0, )"
@@ -263,7 +268,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

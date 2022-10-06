@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
 
 namespace Konsoliohjelma_01_Bonus
 {
@@ -10,24 +11,19 @@ namespace Konsoliohjelma_01_Bonus
     {
         static void Main(string[] args)
         {
-            if (args == null)
+            var switchMappings = new Dictionary<string, string>()
             {
-                Console.WriteLine("args is null");
-            }
-            else
-            {
-                Console.Write("args length is ");
-                Console.WriteLine(args.Length);
-                for (int i = 0; i < args.Length; i++)
-                {
-                    string argument = args[i];
-                    Console.Write("args index ");
-                    Console.Write(i);
-                    Console.Write(" is [");
-                    Console.Write(argument);
-                    Console.WriteLine("]");
-                }
-            }
+                { "--verbose", "key1" },
+                { "--test", "key2" },
+                { "--url=www.google.com", "key3" },
+            };
+
+            var builder = new ConfigurationBuilder().AddCommandLine(args);
+            var config = builder.Build();
+
+            Console.WriteLine($"1: '{config["Key1"]}'");
+            Console.WriteLine($"2: '{config["Key2"]}'");
+            Console.WriteLine($"3: '{config["Key3"]}'");
 
             Console.WriteLine("\nEnter Something to end the program");
             Console.ReadLine();

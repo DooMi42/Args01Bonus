@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s2000950\\source\\repos\\Konsoliohjelma 01 Bonus\\Konsoliohjelma 01 Bonus\\Konsoliohjelma 01 Bonus.csproj": {}
+    "C:\\Users\\hurme\\Desktop\\Args01\\Args01Bonus\\Konsoliohjelma 01 Bonus\\Konsoliohjelma 01 Bonus.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s2000950\\source\\repos\\Konsoliohjelma 01 Bonus\\Konsoliohjelma 01 Bonus\\Konsoliohjelma 01 Bonus.csproj": {
+    "C:\\Users\\hurme\\Desktop\\Args01\\Args01Bonus\\Konsoliohjelma 01 Bonus\\Konsoliohjelma 01 Bonus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s2000950\\source\\repos\\Konsoliohjelma 01 Bonus\\Konsoliohjelma 01 Bonus\\Konsoliohjelma 01 Bonus.csproj",
+        "projectUniqueName": "C:\\Users\\hurme\\Desktop\\Args01\\Args01Bonus\\Konsoliohjelma 01 Bonus\\Konsoliohjelma 01 Bonus.csproj",
         "projectName": "Konsoliohjelma 01 Bonus",
-        "projectPath": "C:\\Users\\s2000950\\source\\repos\\Konsoliohjelma 01 Bonus\\Konsoliohjelma 01 Bonus\\Konsoliohjelma 01 Bonus.csproj",
-        "packagesPath": "C:\\Users\\s2000950\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s2000950\\source\\repos\\Konsoliohjelma 01 Bonus\\Konsoliohjelma 01 Bonus\\obj\\",
+        "projectPath": "C:\\Users\\hurme\\Desktop\\Args01\\Args01Bonus\\Konsoliohjelma 01 Bonus\\Konsoliohjelma 01 Bonus.csproj",
+        "packagesPath": "C:\\Users\\hurme\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hurme\\Desktop\\Args01\\Args01Bonus\\Konsoliohjelma 01 Bonus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\s2000950\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hurme\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
             "Microsoft.Extensions.Configuration.CommandLine": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -61,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
