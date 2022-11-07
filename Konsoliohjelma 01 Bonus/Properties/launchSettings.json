@@ -2,7 +2,7 @@
   "profiles": {
     "Konsoliohjelma 01 Bonus": {
       "commandName": "Project",
-      "commandLineArgs": "--key1 --verbose\r\n--key2 --test\r\n--key3 --url=www.google.com"
+      "commandLineArgs": "-uYES"
     }
   }
 }

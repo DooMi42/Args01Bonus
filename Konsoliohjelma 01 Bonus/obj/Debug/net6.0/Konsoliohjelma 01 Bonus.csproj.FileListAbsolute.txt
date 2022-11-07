@@ -23,10 +23,6 @@ C:\Users\hurme\Desktop\Args01\Args01Bonus\Konsoliohjelma 01 Bonus\bin\Debug\net6
 C:\Users\hurme\Desktop\Args01\Args01Bonus\Konsoliohjelma 01 Bonus\bin\Debug\net6.0\Konsoliohjelma 01 Bonus.runtimeconfig.json
 C:\Users\hurme\Desktop\Args01\Args01Bonus\Konsoliohjelma 01 Bonus\bin\Debug\net6.0\Konsoliohjelma 01 Bonus.dll
 C:\Users\hurme\Desktop\Args01\Args01Bonus\Konsoliohjelma 01 Bonus\bin\Debug\net6.0\Konsoliohjelma 01 Bonus.pdb
-C:\Users\hurme\Desktop\Args01\Args01Bonus\Konsoliohjelma 01 Bonus\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
-C:\Users\hurme\Desktop\Args01\Args01Bonus\Konsoliohjelma 01 Bonus\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\hurme\Desktop\Args01\Args01Bonus\Konsoliohjelma 01 Bonus\bin\Debug\net6.0\Microsoft.Extensions.Configuration.CommandLine.dll
-C:\Users\hurme\Desktop\Args01\Args01Bonus\Konsoliohjelma 01 Bonus\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\hurme\Desktop\Args01\Args01Bonus\Konsoliohjelma 01 Bonus\obj\Debug\net6.0\Konsoliohjelma 01 Bonus.csproj.AssemblyReference.cache
 C:\Users\hurme\Desktop\Args01\Args01Bonus\Konsoliohjelma 01 Bonus\obj\Debug\net6.0\Konsoliohjelma 01 Bonus.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\hurme\Desktop\Args01\Args01Bonus\Konsoliohjelma 01 Bonus\obj\Debug\net6.0\Konsoliohjelma 01 Bonus.AssemblyInfoInputs.cache
@@ -38,3 +34,4 @@ C:\Users\hurme\Desktop\Args01\Args01Bonus\Konsoliohjelma 01 Bonus\obj\Debug\net6
 C:\Users\hurme\Desktop\Args01\Args01Bonus\Konsoliohjelma 01 Bonus\obj\Debug\net6.0\Konsoliohjelma 01 Bonus.pdb
 C:\Users\hurme\Desktop\Args01\Args01Bonus\Konsoliohjelma 01 Bonus\obj\Debug\net6.0\Konsoliohjelma 01 Bonus.genruntimeconfig.cache
 C:\Users\hurme\Desktop\Args01\Args01Bonus\Konsoliohjelma 01 Bonus\obj\Debug\net6.0\ref\Konsoliohjelma 01 Bonus.dll
+C:\Users\hurme\Desktop\Args01\Args01Bonus\Konsoliohjelma 01 Bonus\bin\Debug\net6.0\CommandLine.dll

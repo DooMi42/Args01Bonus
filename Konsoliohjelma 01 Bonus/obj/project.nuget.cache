@@ -1,14 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KNzO6sWe3Nr2vjpt/OfzFO6BsnKWbHS7lbSpMiOOoPEqEFvy9b2gA+8zd0UvXLyJJULYfhNcOoo/mOue4GQMyw==",
+  "dgSpecHash": "ZvkJjQovfseiWbN+yQlbe1YX5BRpmqsGg+GsheiRx7IKPa936TxToOPZQIpmpu5oy5XWWxEVmTml+N0/Zw6AEA==",
   "success": true,
   "projectFilePath": "C:\\Users\\hurme\\Desktop\\Args01\\Args01Bonus\\Konsoliohjelma 01 Bonus\\Konsoliohjelma 01 Bonus.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\hurme\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
-    "C:\\Users\\hurme\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\hurme\\.nuget\\packages\\microsoft.extensions.configuration.commandline\\6.0.0\\microsoft.extensions.configuration.commandline.6.0.0.nupkg.sha512",
-    "C:\\Users\\hurme\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
-    "C:\\Users\\hurme\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\hurme\\.nuget\\packages\\commandlineparser\\2.9.1\\commandlineparser.2.9.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -3,30 +3,42 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.Extensions.Configuration;
+using CommandLine.Text;
+using CommandLine;
 
 namespace Konsoliohjelma_01_Bonus
 {
     public class Program
     {
+        public class Options
+        {
+            [Option('v', "verbose", Required = false, HelpText = "Set output to verbose messages.")]
+            public bool Verbose { get; set; }
+            [Option('u', "URL", Required = false, HelpText = "Set output to url.")]
+            public string URL { get; set; }
+        }
+
         static void Main(string[] args)
         {
-            var switchMappings = new Dictionary<string, string>()
-            {
-                { "--verbose", "key1" },
-                { "--test", "key2" },
-                { "--url=www.google.com", "key3" },
-            };
-
-            var builder = new ConfigurationBuilder().AddCommandLine(args);
-            var config = builder.Build();
-
-            Console.WriteLine($"1: '{config["Key1"]}'");
-            Console.WriteLine($"2: '{config["Key2"]}'");
-            Console.WriteLine($"3: '{config["Key3"]}'");
-
-            Console.WriteLine("\nEnter Something to end the program");
-            Console.ReadLine();
+            Parser.Default.ParseArguments<Options>(args)
+                   .WithParsed<Options>(o =>
+                   {
+                       if (o.Verbose)
+                       {
+                           Console.WriteLine($"Verbose output enabled. Current Arguments: -v {o.Verbose}");
+                           Console.WriteLine("App is in Verbose mode!");
+                       }
+                       else if (!string.IsNullOrEmpty(o.URL))
+                       {
+                           Console.WriteLine($"URL output enabled. Current Arguments: -u {o.URL}");
+                           Console.WriteLine("App is in URL mode!");
+                       }
+                       else
+                       {
+                           Console.WriteLine($"Current Arguments: -v {o.Verbose} & -u {o.URL}");
+                           Console.WriteLine("Give parameters in -v for verboses or -u for urls");
+                       }
+                   });
         }
     }
 }
